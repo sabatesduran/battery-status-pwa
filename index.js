@@ -1,0 +1,1 @@
+console.dir(navigator.getBattery());

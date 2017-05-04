@@ -1,0 +1,17 @@
+{
+  "name": "Bat",
+  "short_name": "Bat",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#EEEEEE",
+  "description": "Battery status progressive web apps starter",
+  "theme_color": "#f0db4f",
+  "background_color": "#f0db4f",
+  "scope": "/",
+  "orientation": "portrait",
+  "icons": [{
+    "src": "images/bat-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
+}

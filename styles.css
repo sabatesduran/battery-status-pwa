@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0db4f;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 92px;
+  height: 92px;
+  border: 1px solid #323330;
+}
