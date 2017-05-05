@@ -12,7 +12,6 @@ self.addEventListener('install', function(event) {
       return cache.addAll([
         '/',
         'index.html',
-        'sw.js',
         'js/index.js',
         'css/styles.css',,
         'manifest.json',
