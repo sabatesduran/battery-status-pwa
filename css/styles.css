@@ -1,12 +1,18 @@
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f0db4f;
   height: 100vh;
   padding: 0;
   margin: 0;
+  background: #f0db4f;
   color: #323330;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 .logo {
