@@ -8,5 +8,3 @@ if ( 'serviceWorker' in navigator ) {
     console.log( 'ServiceWorker registration failed. Error: ' + err);
   });
 }
-
-console.dir(navigator.getBattery());
