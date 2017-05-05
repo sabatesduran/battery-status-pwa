@@ -11,7 +11,7 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "launcher-icon.png",
+      "src": "launcher-icon-48.png",
       "sizes": "48x48",
       "type": "image/png"
     },
