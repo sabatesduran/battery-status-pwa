@@ -24,37 +24,100 @@
   <meta name="msapplication-navbutton-color" content="#f0db4f">
   <meta name="msapplication-starturl" content="/">
 
+  <link rel="stylesheet" type="text/css" href="vendor/mdl/material.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="vendor/mdl/material-icons.css">
 </head>
 
 <body>
-  <div class="container">
-    <img class="logo" src="img/launcher-icon-96.png" alt="Bat">
 
-    <div class="battery-info">
-      <table>
-        <tbody>
-          <tr>
-            <th>Level</th>
-            <td><span id="level"></span></td>
-          </tr>
-          <tr>
-            <th>Charging?</th>
-            <td><span id="charging"></span></td>
-          </tr>
-          <tr>
-            <th>Charging time</th>
-            <td><span id="charging-time"></span></td>
-          </tr>
-          <tr>
-            <th>Discharging time</th>
-            <td><span id="discharging-time"></span></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">Bat</span>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+
+      <div class="mdl-tabs mdl-js-tabs">
+        <div class="mdl-tabs__tab-bar">
+          <a href="#status" class="mdl-tabs__tab is-active">Status</a>
+          <a href="#about" class="mdl-tabs__tab">About</a>
+        </div>
+        <div class="mdl-tabs__panel is-active" id="status">
+          <div class="mdl-grid">
+            <div class="mdl-cell--12-col flex-valing">
+              <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <tbody>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      Level
+                    </td>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <span id="level"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      Charging?
+                    </td>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <span id="charging"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      Charging time
+                    </td>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <span id="charging-time"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      Discharging time
+                    </td>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <span id="discharging-time"></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-tabs__panel" id="about">
+          <div class="mdl-grid">
+            <div class="mdl-cell--12-col text-center">
+              <img src="img/launcher-icon-96.png" alt="Bat">
+            </div>
+            <div class="mdl-cell--12-col text-center">
+              <h4>Dídac Sabatés</h4>
+              <h6>Full Stack Developer</h6>
+            </div>
+            <div class="mdl-cell--12-col">
+              <ul class="mdl-list list-width">
+                <li class="mdl-list__item">
+                  <a href="https://github.com/sabatesduran">Github</a>
+                </li>
+                <li class="mdl-list__item">
+                  <a href="https://github.com/sabatesduran/battery-status-pwa">Source code</a>
+                </li>
+                <li class="mdl-list__item">
+                  <a href="https://sabatesduran.net">Website</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
   </div>
 
+  <script src="vendor/mdl/material.min.js"></script>
   <script src="js/index.js"></script>
   <script src="js/battery.js"></script>
 
