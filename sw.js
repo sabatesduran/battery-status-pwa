@@ -17,6 +17,7 @@ self.addEventListener('install', function(event) {
         'manifest.json',
         'img/launcher-icon-48.png',
         'img/launcher-icon-96.png',
+        'img/launcher-icon-128.png',
         'img/launcher-icon-144.png',
         'img/launcher-icon-192.png',
         'img/launcher-icon-256.png',
