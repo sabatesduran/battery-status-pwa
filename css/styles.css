@@ -6,10 +6,14 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0;
+  color: #323330;
 }
 
 .logo {
-  width: 92px;
-  height: 92px;
+  margin: 20px;
   border: 1px solid #323330;
+}
+
+table th, table td {
+  text-align: left;
 }

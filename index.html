@@ -25,7 +25,31 @@
 </head>
 
 <body>
-  <img class="logo" src="img/launcher-icon-512.png" alt="Bat">
+
+  <img class="logo" src="img/launcher-icon-96.png" alt="Bat">
+
+  <div class="battery-info">
+    <table>
+      <tbody>
+        <tr>
+          <th>Level</th>
+          <td><span id="level"></span></td>
+        </tr>
+        <tr>
+          <th>Charging?</th>
+          <td><span id="charging"></span></td>
+        </tr>
+        <tr>
+          <th>Charging time</th>
+          <td><span id="charging-time"></span></td>
+        </tr>
+        <tr>
+          <th>Discharging time</th>
+          <td><span id="discharging-time"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
   <script src="js/index.js"></script>
   <script src="js/battery.js"></script>
