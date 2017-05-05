@@ -6,21 +6,21 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
 
     // Open a cache
-    caches.open('v1').then(function(cache) {
+    caches.open('bat').then(function(cache) {
 
       // Define what we want to cache
       return cache.addAll([
         '/',
         'index.html',
         'js/index.js',
-        'css/styles.css',,
+        'css/styles.css',
         'manifest.json',
         'img/launcher-icon-48.png',
         'img/launcher-icon-96.png',
         'img/launcher-icon-144.png',
         'img/launcher-icon-192.png',
         'img/launcher-icon-256.png',
-        'img/launcher-icon-512.png',
+        'img/launcher-icon-512.png'
       ]);
     })
   );
