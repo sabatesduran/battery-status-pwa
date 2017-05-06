@@ -16,3 +16,8 @@
 .mdl-layout__header-row {
   padding: 0 16px 0 20px;
 }
+
+.mdl-cell--12-col,
+.mdl-cell--12-col-phone.mdl-cell--12-col-phone {
+  width: calc(100vw - 16px);
+}
