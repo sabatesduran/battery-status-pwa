@@ -2,7 +2,6 @@
   "name": "Bat",
   "short_name": "Bat",
   "start_url": "./index.html",
-  "scope": "battery-status-pwa",
   "description": "Battery status progressive web app",
   "display": "standalone",
   "orientation": "portrait",
