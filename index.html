@@ -24,6 +24,12 @@
   <meta name="msapplication-navbutton-color" content="#f0db4f">
   <meta name="msapplication-starturl" content="/">
 
+  <script type="text/javascript">
+    var host = "yoursite.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+  </script>
+
   <link rel="stylesheet" type="text/css" href="vendor/mdl/material.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
