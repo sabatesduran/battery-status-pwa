@@ -19,13 +19,13 @@ self.addEventListener('install', function(event) {
         'vendor/mdl/material.min.css',
         'vendor/mdl/material-icons.css',
         'vendor/mdl/material-icons.woff2',
-        'img/launcher-icon-48.png',
-        'img/launcher-icon-96.png',
-        'img/launcher-icon-128.png',
-        'img/launcher-icon-144.png',
-        'img/launcher-icon-192.png',
-        'img/launcher-icon-256.png',
-        'img/launcher-icon-512.png'
+        'img/launcher-icon-48.webp',
+        'img/launcher-icon-96.webp',
+        'img/launcher-icon-128.webp',
+        'img/launcher-icon-144.webp',
+        'img/launcher-icon-192.webp',
+        'img/launcher-icon-256.webp',
+        'img/launcher-icon-512.webp'
       ]);
     })
   );
