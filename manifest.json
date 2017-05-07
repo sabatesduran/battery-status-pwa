@@ -1,8 +1,7 @@
 {
   "name": "Bat",
   "short_name": "Bat",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./index.html",
   "description": "Battery status progressive web apps starter",
   "display": "standalone",
   "orientation": "portrait",
